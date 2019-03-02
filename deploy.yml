@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
         name: ID1
-        image: kondaiahgovindu/ID1
+        image: kondaiahgovindu/ID2
         ports:
           containerport:6000
 
