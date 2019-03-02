@@ -4,10 +4,9 @@ metedata:
   name: simple-svc
 spec:
   selector:
-    app: nginx
+    app: ID2
   type: NodePort
   ports:
-  - name: http
-    port: 80
+  - port: 80
     nodePort: 6000
     protocol: tcp
