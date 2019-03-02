@@ -1,0 +1,18 @@
+apiVersion: vi
+kind: Deployment
+metedata:
+  name: ID2-deploy
+spec:
+  replicas: 3
+  minReadyseconds: 20
+  template:
+    metadata:
+      labels:
+        app: ID2
+    spec:
+      containers:
+        name: ID1
+        image: kondaiahgovindu/ID1
+        ports:
+          containerport:6000
+
