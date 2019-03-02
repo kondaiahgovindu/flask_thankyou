@@ -1,0 +1,13 @@
+apiVersion: vi
+kind: Service
+metedata:
+  name: simple-svc
+spec:
+  selector:
+    app: nginx
+  type: NodePort
+  ports:
+  - name: http
+    port: 80
+    nodePort: 6000
+    protocol: tcp
