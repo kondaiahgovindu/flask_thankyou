@@ -11,7 +11,7 @@ spec:
         app: ID2
     spec:
       containers:
-        name: ID1
+        name: ID2
         image: kondaiahgovindu/ID2
         ports:
           containerport:8080
